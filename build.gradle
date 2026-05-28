@@ -21,6 +21,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation ("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}") {
         force = true
+        exclude group: "net.fabricmc", module: "fabric-javadoc"
     }
 }
 
@@ -47,6 +48,10 @@ configurations.all {
         cacheChangingModulesFor 0, 'seconds'
         cacheDynamicVersionsFor 0, 'seconds'
     }
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/saturation.accesswidener")
 }
 
 publishing {
