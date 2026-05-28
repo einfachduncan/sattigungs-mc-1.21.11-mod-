@@ -1,0 +1,8 @@
+{
+  "key.saturation.toggle": "Open Saturation Settings",
+  "category.saturation.main": "Saturation Mod",
+  "screen.saturation.title": "Saturation Settings",
+  "screen.saturation.slider": "Saturation: %s",
+  "screen.saturation.hotkey": "Hotkey: %s",
+  "screen.saturation.hotkey.waiting": "Press any key..."
+}

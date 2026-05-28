@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "saturation",
+  "version": "${version}",
+  "name": "Saturation Mod",
+  "description": "A Fabric client mod to configure color saturation with a GUI and hotkey.",
+  "authors": [
+    "einfachduncan"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.einfachduncan.saturation.SaturationMod"
+    ],
+    "client": [
+      "com.einfachduncan.saturation.client.SaturationClient"
+    ]
+  },
+  "mixins": [
+    "saturation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
