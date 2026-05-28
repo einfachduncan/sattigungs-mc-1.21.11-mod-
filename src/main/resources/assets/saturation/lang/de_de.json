@@ -1,0 +1,8 @@
+{
+  "key.saturation.toggle": "Sättigungs-Einstellungen öffnen",
+  "category.saturation.main": "Sättigungs-Mod",
+  "screen.saturation.title": "Sättigungs-Einstellungen",
+  "screen.saturation.slider": "Sättigung: %s",
+  "screen.saturation.hotkey": "Hotkey: %s",
+  "screen.saturation.hotkey.waiting": "Taste drücken..."
+}
