@@ -42,6 +42,12 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
+configurations.all {
+    resolutionStrategy {
+        force "net.fabricmc.fabric-api:fabric-api:0.100.0+1.21.1"
+    }
+}
+
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -49,3 +55,4 @@ publishing {
         }
     }
 }
+
